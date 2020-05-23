@@ -54,6 +54,7 @@ app.get('/info',(req,res,next)=>{
       res.send(`<p>Phonebook has info for ${person.length} people</p>
       <p>${date}</p>`)
     })
+    .catch(error=>next(error))
   }
 )
 
