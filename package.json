@@ -13,6 +13,10 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
+  "homepage":"https://github.com/paulizio/mooc2020#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulizio/mooc2020.git",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
